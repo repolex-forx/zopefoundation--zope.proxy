@@ -3,6 +3,11 @@
   "repo": "zope.proxy",
   "versions": [
     {
+      "commit": "d76b9e6db07d5f3e78786718a29674997607e5a6",
+      "tag": "7.1",
+      "parsed_at": "2026-11-22T01:49:42.382955+00:00"
+    },
+    {
       "commit": "2a8e64eec89bdb2610b2cf3d46105e541b5a0c15",
       "tag": "",
       "parsed_at": "2026-11-06T01:26:32.379193+00:00"
