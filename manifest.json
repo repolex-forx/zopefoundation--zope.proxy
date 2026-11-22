@@ -116,6 +116,85 @@
       ],
       "ast": [
         "aggregate/ast/d76b9e6db07d5f3e78786718a29674997607e5a6/chunk-001.nq.gz"
+      ],
+      "lsp": "aggregate/lsp/d76b9e6db07d5f3e78786718a29674997607e5a6.nq.gz",
+      "dependencies": [
+        {
+          "packageName": "zope-interface",
+          "ecosystem": "PYPI",
+          "version": "8.7.0",
+          "githubOrg": "zopefoundation",
+          "githubRepo": "zope.interface",
+          "githubUrl": "https://github.com/zopefoundation/zope.interface",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "sphinx",
+          "ecosystem": "PYPI",
+          "version": "9.2.0",
+          "githubOrg": "sphinx-doc",
+          "githubRepo": "sphinx",
+          "githubCommit": "7b2c103eaa4cabf0ac47224c444cf0cbc7c745e5",
+          "githubTag": "v9.2.0",
+          "githubUrl": "https://github.com/sphinx-doc/sphinx",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "repoze-sphinx-autointerface",
+          "ecosystem": "PYPI",
+          "version": "1.1.0",
+          "githubOrg": "repoze",
+          "githubRepo": "repoze.sphinx.autointerface",
+          "githubCommit": "ba8f7f26df46250ee8408c621c423de1e1b2327b",
+          "githubTag": "1.1.0",
+          "githubUrl": "https://github.com/repoze/repoze.sphinx.autointerface",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "furo",
+          "ecosystem": "PYPI",
+          "version": "2025.12.19",
+          "githubOrg": "pradyunsg",
+          "githubRepo": "furo",
+          "githubCommit": "dd9e9f920494f24b9b8dd954ec9d07e0b9d12817",
+          "githubTag": "2025.12.19",
+          "githubUrl": "https://github.com/pradyunsg/furo",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "zope-security",
+          "ecosystem": "PYPI",
+          "version": "7.3",
+          "githubOrg": "zopefoundation",
+          "githubRepo": "zope.security",
+          "githubCommit": "2a4e09cb8e33fe179106e071713db2e249d34c37",
+          "githubTag": "7.3",
+          "githubUrl": "https://github.com/zopefoundation/zope.security",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "zope-testrunner",
+          "ecosystem": "PYPI",
+          "version": "6.4",
+          "githubOrg": "zopefoundation",
+          "githubRepo": "zope.testrunner",
+          "githubCommit": "975be756a3420e8cccc9647d34deb82686c1c52b",
+          "githubTag": "6.4",
+          "githubUrl": "https://github.com/zopefoundation/zope.testrunner",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "setuptools",
+          "ecosystem": "PYPI",
+          "version": "84.2.1",
+          "githubOrg": "pypa",
+          "githubRepo": "setuptools",
+          "githubCommit": "3895f9829fc0e51882981773a823a658eb1d1636",
+          "githubTag": "v84.2.1",
+          "githubUrl": "https://github.com/pypa/setuptools",
+          "source": "lsp",
+          "install_path": "/home/runner/.local/share/uv/tools/repolex/lib/python3.13/site-packages/setuptools/command/build_ext.py"
+        }
       ]
     }
   ],
